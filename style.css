@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #efefef;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.profile-img{
+    width: 40%;
+    float: right;
+    border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    
+
+}
+.profile-img img{
+    width: 100%;
+    height: 100%;
+    
+    border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+}
+.about{
+    margin-left: 15px;
+}
+.profile-info{
+    width:60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.profile-info h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.social-media img{
+    height: 70px;
+    margin-right: 15px;
+}
+.social-media{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.profile-info h2{
+    margin-top: 50px;
+    margin-bottom:15px;
+    display: inline-block;
+    
+}
+.expertise img{
+    height: 30px;
+    margin: 5px
+}
+.expertise
+{
+    display: inline-block;
+    
+    width: 28%;
+    
+    padding: 30px 10px;
+    margin:2%;
+    text-align: center;
+    box-shadow:  0 0 15px 1px rgba(37,37.214,0.18);
+    border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    background-color: white;
+}
+.expertise small{
+    padding-top: 10px;
+    display: block;
+}
+.project img{
+    width:31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.form-box
+{
+    margin-top:30px;
+}
+.input-group input{
+ width:45%;
+ border: 3px solid orange;
+ border-radius: 10px;
+ outline:none;
+ padding: 10px;
+ margin: 2%;
+ display: inline-block;
+ 
+}
+
+.submit-btn
+{
+    border:0;
+    outline: none;
+    padding: 10px 20px;
+    margin: 2%;
+    background: blue;
+    cursor: pointer;
+    color: white;
+
+}
+.contact img{
+    width:20px;
+    margin: -5px 10px;
+}
+.contact span
+{
+  margin: 3%;   
+}
+.contact{
+    margin: 5% 0 5% 26%; 
+    width:65%;
+}
+.copyright{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
